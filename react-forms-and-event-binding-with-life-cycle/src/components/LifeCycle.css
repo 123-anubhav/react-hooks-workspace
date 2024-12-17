@@ -1,0 +1,18 @@
+#shadow {
+   
+    border: 3px solid #0aec11; /* Green border color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Soft shadow */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+}
+
+#shadow:hover {
+    transform: scale(1.2); /* Slight zoom on hover */
+    box-shadow: 0 12px 20px rgba(233, 5, 5, 0.5); /* Stronger shadow on hover */
+}
+
+
+/* div {
+    overflow: visible;
+}
+ */
